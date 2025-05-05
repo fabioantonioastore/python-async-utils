@@ -3,15 +3,15 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ninja-utils"
+name = "asynchronous-utils"
 version = "0.1.0"
 authors = [
     {name = "Fabio Antonio Astore", email = "astore.a.fabio@gmail.com"}
 ]
-description = "Python Async Utils"
+description = "Python Asynchronous Utils"
 readme = "README.md"
 license = {file = "LICENSE"}
 dependencies = []
 
 [tool.setuptools]
-packages = ["async_utils"]
+packages = ["asynchronous_utils"]
